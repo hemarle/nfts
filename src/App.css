@@ -1,0 +1,17 @@
+:root{
+  --blue:#346af0;
+  --black:rgb(18, 18, 18);
+  --yellow:rgba(255, 255, 0, 1)
+}
+.app{
+  background-color: var(--black);
+color: var(--yellow);
+}
+
+h1{
+  font-size: 2.8rem;
+}
+
+h2{
+  font-size: 2rem;
+}

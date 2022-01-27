@@ -1,0 +1,15 @@
+.about{
+    text-align: center;
+    padding: 20px;
+}
+.about__Title{
+    margin-bottom:40px;
+}
+
+
+@media screen and (min-width:768px) {
+    
+    .aboutCard:nth-of-type(even){
+        flex-direction: row;
+    }
+}
