@@ -82,7 +82,7 @@ nav ul a {
   }
   .nav__Auth {
     margin-left: 5vw;
-    width: max-content;
+    min-width: max-content;
     font-size: 16px;
     align-items: center;
   }
@@ -100,6 +100,7 @@ nav ul a {
     display: flex;
     list-style: none;
     margin-top: 0px;
+    min-width: max-content;
   }
 
   .nav li {
