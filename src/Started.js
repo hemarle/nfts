@@ -7,7 +7,7 @@ function Started() {
 
             <form action="" className="started__Form">
                 <input type="text" name="wallet_id" id="wallet_id"/>
-                <input type="submit" value="connect"/>
+                <input type="submit" value="Connect"/>
             </form>
         </div>
     );

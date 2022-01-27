@@ -32,4 +32,8 @@
   background-color: var(--yellow);
   border: none;
   border-radius: 20px;
+  cursor: pointer;
+}
+.started__Form input[type="submit"]:hover {
+  box-shadow: 4px 4px 15px rgb(212, 212, 194), -6px -6px 15px rgb(219, 219, 188);
 }

@@ -2,9 +2,10 @@
   --blue: #346af0;
   --black: rgb(18, 18, 18);
   --yellow: rgba(255, 255, 0, 1);
-  /* --about-bg: rgba(10, 10, 10, 1);
-  --about-bg: rgb(73, 71, 71); */
   --about-bg: rgb(209, 209, 73);
+  --nav-bg: rgba(10, 10, 10, 0.3);
+  --nav-link: rgba(225, 225, 0, 0.8);
+  /* --download-bg: ; */
 }
 .app {
   background-color: var(--black);
