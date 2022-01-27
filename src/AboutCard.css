@@ -1,16 +1,19 @@
-.aboutCard{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    padding: 20px;
-    margin-bottom: 60px;
+.aboutCard {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 60px;
 }
-.aboutCard__Image{
-    max-width: 500px;
+.aboutCard__Image {
+  max-width: 500px;
 }
 
-@media screen and (min-width:768px) {
-    .aboutCard{
-        flex-direction: row-reverse;
-    }
+@media screen and (min-width: 768px) {
+  .aboutCard {
+    flex-direction: row-reverse;
+  }
+  .aboutCard__Image {
+    max-width: 700px;
+  }
 }

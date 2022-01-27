@@ -1,8 +1,10 @@
 :root {
   --blue: #346af0;
   --black: rgb(18, 18, 18);
-  --black-faint: rgba(18, 18, 18, 0.4);
   --yellow: rgba(255, 255, 0, 1);
+  /* --about-bg: rgba(10, 10, 10, 1);
+  --about-bg: rgb(73, 71, 71); */
+  --about-bg: rgb(209, 209, 73);
 }
 .app {
   background-color: var(--black);

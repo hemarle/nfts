@@ -6,7 +6,7 @@
   text-align: center;
   min-height: 80vh;
   padding: 20px;
-  background-color: var(--black);
+  background-color: var(--hero-bg);
 }
 .hero__Subtitle {
   max-width: 700px;

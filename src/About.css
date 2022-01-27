@@ -1,15 +1,20 @@
-.about{
-    text-align: center;
-    padding: 20px;
+.about {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--about-bg);
+  color: black;
 }
-.about__Title{
-    margin-bottom:40px;
+.about h2 {
+  color: black;
+  margin-bottom: 10px;
+}
+.about__Title {
+  margin-bottom: 40px;
+  color: black;
 }
 
-
-@media screen and (min-width:768px) {
-    
-    .aboutCard:nth-of-type(even){
-        flex-direction: row;
-    }
+@media screen and (min-width: 768px) {
+  .aboutCard:nth-of-type(even) {
+    flex-direction: row;
+  }
 }
