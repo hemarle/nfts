@@ -11,7 +11,7 @@ function Download({ image, title, about, googleLink, appleLink }) {
       <div className="download__Content">
         <h2 className="download__Title">{title}</h2>
 
-        <div className="download__About">{about}</div>
+        <p className="download__About">{about}</p>
 
         <div className="download__Links">
           <a href={googleLink}>
