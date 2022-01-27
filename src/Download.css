@@ -1,33 +1,32 @@
-.download{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    padding: 5vw;
-    color: white;
-
+.download {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 5vw;
+  background-color: #464646;
+  color: white;
 }
 
-.download__Image{
-    margin-top: 40px;
+.download__Image {
+  margin-top: 40px;
 }
-.download__Content{
-text-align: center;
+.download__Content {
+  text-align: center;
 }
-.download__About{
-    margin: 20px 0px;
+.download__About {
+  margin: 20px 0px;
 }
-.download__Links a img{
-    margin-bottom: 10px;
-    max-width: 200px;
-}
-
-@media screen and (min-width:768px) {
-    .download{
-        flex-direction: row;
-        margin: 20px;
-    }
+.download__Links a img {
+  margin-bottom: 10px;
+  max-width: 200px;
 }
 
-@media screen and (min-width:1440px) {
- 
+@media screen and (min-width: 768px) {
+  .download {
+    flex-direction: row;
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
 }

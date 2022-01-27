@@ -1,19 +1,20 @@
-:root{
-  --blue:#346af0;
-  --black:rgb(18, 18, 18);
-  --yellow:rgba(255, 255, 0, 1)
+:root {
+  --blue: #346af0;
+  --black: rgb(18, 18, 18);
+  --black-faint: rgba(18, 18, 18, 0.4);
+  --yellow: rgba(255, 255, 0, 1);
 }
-.app{
+.app {
   background-color: var(--black);
-color: white;
+  color: white;
 }
 
-h1{
+h1 {
   font-size: 2.8rem;
   color: var(--yellow);
 }
 
-h2{
+h2 {
   font-size: 2rem;
   color: var(--yellow);
 }
