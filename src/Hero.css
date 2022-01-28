@@ -16,7 +16,7 @@
 .hero__Link {
   color: white;
   background-color: var(--blue);
-  padding: 20px 5vw;
+  padding: 20px 50px;
   border-radius: 30px;
-  font-size: 20px;
+  font-size: 16px;
 }
