@@ -7,9 +7,9 @@ function ServicesCard({image, title, about, link}) {
         <h3>{title}</h3>
         <p>{about}</p>
         <a href={link}>
-            Explore -></a>
-    </div>
-;
+            Explore
+        </a>
+    </div>;
 }
 
 export default ServicesCard;
