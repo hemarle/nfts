@@ -4,9 +4,10 @@
   --yellow: rgba(255, 255, 0, 1);
   --about-bg: rgb(209, 209, 73);
   --about-bg: #1f181f;
-  --nav-bg: rgba(10, 10, 10, 0.3);
+  --nav-bg: rgba(10, 10, 10, 1);
+  --nav-bg: rgb(131, 128, 128);
+
   --nav-link: rgba(225, 225, 0, 0.8);
-  /* --download-bg: white; */
   --servicesCard-bg: rgba(18, 18, 18);
   --services-bg: #262626;
 }
