@@ -9,14 +9,14 @@ import Started from "./Started";
 
 function Landing() {
     return <div className='landing'>
-        <Hero/>
+        <Hero title='Invest in Defi from one place' about='One stop platform for CEX, DEX and DAO' link='/signup' linkText='Connect wallet'/>
         <About/>
         <Download image={phoneIcon}
             title='Defi for every device'
             about=" Track your portfolio in real time and view the entire DeFi market,
-                                                                                      straight from your phone. Our mobile app is globally available, with
-                                                                                      over 10 languages supported.
-                                                                                 "/>
+                                                                                                      straight from your phone. Our mobile app is globally available, with
+                                                                                                      over 10 languages supported.
+                                                                                                 "/>
         <Started/>
 
     </div>;

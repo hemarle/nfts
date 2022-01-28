@@ -27,7 +27,7 @@ function Navigation() {
                 <img src={logo}
                     alt="site logo"/>
                 <p className="nav__Text">
-                    UNG<span>Fualu</span>
+                    Osm<span>os</span>
                 </p>
             </div>
             <div className="nav__Hamburger">
