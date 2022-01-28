@@ -8,7 +8,7 @@ function App() {
         <div className="app">
             <Navigation/>
             <Landing/>
-            <Footer/>
+            <Footer title='Osmos' about='Transaction has never been this easy. Be in charge of all your transactions today'/>
         </div>
     );
 }
