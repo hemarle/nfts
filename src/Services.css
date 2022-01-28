@@ -1,5 +1,13 @@
 .services {
+  background-color: var(--services-bg);
   padding: 50px 0px;
+}
+.services__Title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+.services__Cards {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;

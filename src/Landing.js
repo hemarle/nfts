@@ -12,14 +12,11 @@ function Landing() {
     return <div className='landing'>
         <Hero title='Invest in Defi from one place' about='One stop platform for CEX, DEX and DAO' link='/signup' linkText='Connect wallet'/>
         <About/>
+        <Services/>
         <Download image={phoneIcon}
             title='Defi for every device'
-            about=" Track your portfolio in real time and view the entire DeFi market,
-                                                                                                                      straight from your phone. Our mobile app is globally available, with
-                                                                                                                      over 10 languages supported.
-                                                                                                                 "/>
+            about=" Track your portfolio in real time and view the entire DeFi market, straight from your phone. Our mobile app is globally available, with over 10 languages support"/>
         <Started/>
-        <Services/>
 
     </div>;
 }

@@ -1,17 +1,23 @@
 .servicesCard {
-  background-color: var(--serviceCard-bg);
-  background-color: violet;
+  background-color: var(--servicesCard-bg);
   width: 90vw;
   max-width: 650px;
-  height: 300px;
-  margin: 20px 10px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
+  margin: 20px 10px;
+  border-radius: 10px;
 }
 .servicesCard img {
-  width: 100px;
+  width: 80%;
+  height: 140px;
+  margin: 0px auto 10px;
+}
+.servicesCard h3 {
+  text-align: center;
+  font-weight: 800;
 }
 .servicesCard p {
   margin: 10px 0px 20px;

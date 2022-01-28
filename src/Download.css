@@ -26,6 +26,6 @@
 @media screen and (min-width: 768px) {
   .download {
     flex-direction: row;
-    margin: 20px;
+    /* margin: 20px; */
   }
 }

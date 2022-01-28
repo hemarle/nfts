@@ -8,6 +8,9 @@
 .aboutCard__Image {
   max-width: 500px;
 }
+.aboutCard__Content p {
+  margin: 20px 0px 50px;
+}
 
 @media screen and (min-width: 768px) {
   .aboutCard {
@@ -15,5 +18,12 @@
   }
   .aboutCard__Image {
     max-width: 700px;
+    flex: 0.5;
+  }
+  .aboutCard__Content {
+    flex: 0.5;
+  }
+  .aboutCard__Content p {
+    /* text-align: justify; */
   }
 }

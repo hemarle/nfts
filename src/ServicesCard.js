@@ -6,7 +6,8 @@ function ServicesCard({image, title, about, link}) {
             alt=""/>
         <h3>{title}</h3>
         <p>{about}</p>
-        <a href={link}>
+        <a href={link}
+            className='button blue'>
             Explore
         </a>
     </div>;
