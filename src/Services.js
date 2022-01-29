@@ -2,25 +2,25 @@ import React, {useState} from 'react';
 import './Services.css'
 import ServicesCard from './ServicesCard';
 import handShakeIcon from './images/hand-shake.png'
-import cexIcon from './images/cex.png'
+import nexIcon from './images/cex.png'
 import dexIcon from './images/dex.png'
 function Services() {
     const [servicesData, useServicesData] = useState([
         {
             image: handShakeIcon,
-            title: 'CMEX',
-            about: 'Community exchange is done easily with osmos. With our solid community, you can transact easily and faster too',
-            link: '/cmex'
+            title: 'DAO',
+            about: 'Vote in official acendao governance proposal and view past proposals. Governance forum: Participate by proposing upgrades and discussing the future of acendao',
+            link: '/dao'
         }, {
             image: dexIcon,
             title: 'DEX',
-            about: 'A community-driven NFT exchange first in the Space built for ERC721 tokens(non-fungible token)',
+            about: 'A community-driven decentralized exchange for Avalanche assets with fast settlement, low transaction fees and a democratic distribution powered by Avalanche. Acendao brings you the best trading opportunity to find and maximize your yield.',
             link: '/dex'
         }, {
-            image: cexIcon,
-            title: 'CEX',
-            about: 'A community-driven decentralized exchange for Avalanche assets with fast settlement, low transaction fees and a democratic distribution powered by Acendex.',
-            link: '/cex'
+            image: nexIcon,
+            title: 'NEX',
+            about: 'A community-driven NFT exchange first in the space built to trade NFTs with NFTs.',
+            link: '/nex'
         }
     ])
     return <div className='services'>
