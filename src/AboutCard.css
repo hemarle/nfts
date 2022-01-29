@@ -21,8 +21,14 @@
     max-width: 700px;
     flex: 0.5;
   }
+  .aboutCard__Image img {
+    /* min-width: 700px; */
+  }
   .aboutCard__Content {
     flex: 0.5;
+  }
+  .aboutCard__Content h2 {
+    /* font-size: 4.3rem; */
   }
   .aboutCard__Content p {
     /* text-align: justify; */

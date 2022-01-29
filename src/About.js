@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import phoneIcon from "./images/phone.png";
+import walletIcon from "./images/phone.png";
 import AboutCard from "./AboutCard";
 function About({title}) {
     return (
@@ -10,7 +10,7 @@ function About({title}) {
 
             <div className="about__Cards">
                 <AboutCard title="Wallet" about="A crypto wallet for tracking your ERC20 assets"
-                    image={phoneIcon}
+                    image={walletIcon}
                     link={'/cmex'}
                     linkText='Explore'/>
             </div>
