@@ -14,12 +14,12 @@ function Services() {
         }, {
             image: dexIcon,
             title: 'DEX',
-            about: 'lorem10px',
+            about: 'A community-driven NFT exchange first in the Space built for ERC721 tokens(non-fungible token)',
             link: '/dex'
         }, {
             image: cexIcon,
             title: 'CEX',
-            about: 'lorem10px',
+            about: 'A community-driven decentralized exchange for Avalanche assets with fast settlement, low transaction fees and a democratic distribution powered by Acendex.',
             link: '/cex'
         }
     ])

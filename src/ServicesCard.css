@@ -2,7 +2,7 @@
   background-color: var(--servicesCard-bg);
   width: 90vw;
   max-width: 650px;
-  height: 400px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +21,8 @@
 }
 .servicesCard p {
   margin: 10px 0px 20px;
-  height: 150px;
+  height: 300px;
+  text-align: center;
 }
 
 @media screen and (min-width: 640px) {

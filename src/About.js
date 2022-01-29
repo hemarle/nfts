@@ -9,13 +9,14 @@ function About({title}) {
                 {title}</h1>
 
             <div className="about__Cards">
-                <AboutCard title="CMEX" about="Community exchange done with ease"
+                <AboutCard title="Wallet" about="A crypto wallet where ERC20 and ERC721 are stored"
                     image={phoneIcon}
                     link={'/cmex'}
                     linkText='Explore'/>
 
 
-                <AboutCard title="DEX" about="Nothing is better than Decentralised exchange. Take advantage of our DEX program and get the best we have to offer"
+                <AboutCard title="DAO" about="Vote in official Acendex governance proposal and view past proposals.
+                                                                        Governance forum: Participate by proposing upgrades and discussing the future of Acendex with the community."
                     image={phoneIcon}
                     link={'/explore'}
                     linkText='Explore'/>
