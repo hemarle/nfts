@@ -13,14 +13,6 @@ function About({title}) {
                     image={phoneIcon}
                     link={'/cmex'}
                     linkText='Explore'/>
-
-
-                <AboutCard title="DAO" about="Vote in official Acendex governance proposal and view past proposals.
-                                                                        Governance forum: Participate by proposing upgrades and discussing the future of Acendex with the community."
-                    image={phoneIcon}
-                    link={'/explore'}
-                    linkText='Explore'/>
-
             </div>
         </div>
     );
