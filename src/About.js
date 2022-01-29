@@ -9,7 +9,7 @@ function About({title}) {
                 {title}</h1>
 
             <div className="about__Cards">
-                <AboutCard title="Wallet" about="A crypto wallet where ERC20 and ERC721 are stored"
+                <AboutCard title="Wallet" about="A crypto wallet for tracking your ERC20 assets"
                     image={phoneIcon}
                     link={'/cmex'}
                     linkText='Explore'/>
