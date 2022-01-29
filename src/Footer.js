@@ -44,7 +44,7 @@ function Footer({title, about}) {
                         <a href='/contact'>Engage</a>
                     </li>
                     <li>
-                        <a href='/about'>FemiVPN?</a>
+                        <a href='/about'>Learn?</a>
                     </li>
                     <li>
                         <a href='/faq'>FAQ</a>

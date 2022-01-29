@@ -27,7 +27,7 @@ function Navigation() {
                 <img src={logo}
                     alt="site logo"/>
                 <p className="nav__Text">
-                    Osm<span>os</span>
+                    Acen<span>DAO</span>
                 </p>
             </div>
             <div className="nav__Hamburger">
@@ -44,14 +44,14 @@ function Navigation() {
                         <a href="#">Dex</a>
                     </li>
                     <li>
-                        <a href="#">Lending</a>
-                    </li>
-                    <li>
-                        <a href="#">Nft Marketplace</a>
+                        <a href="#">Nex</a>
                     </li>
                     <li>
                         <a href="#">
                             DAO</a>
+                    </li>
+                    <li>
+                        <a href="#">Nft Marketplace</a>
                     </li>
                     <li>
                         <a href="#">Help</a>
