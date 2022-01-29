@@ -10,7 +10,7 @@ import Services from './Services';
 
 function Landing() {
     return <div className='landing'>
-        <Hero title='Invest in Defi from one place' about='One stop platform for CEX, DEX and DAO' link='/signup' linkText='Connect wallet'/>
+        <Hero title='Invest in Defi from one place' about='One stop platform for CEX, DEX and DAO' link='/signup' linkText='Get Started'/>
         <About title='Explore'/>
         <Services/>
         <Download image={phoneIcon}
